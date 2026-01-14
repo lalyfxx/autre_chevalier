@@ -2184,3 +2184,303 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.14-15.37.57:245][160]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
 [2026.01.14-15.37.57:255][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2026.01.14-15.37.57:344][161]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.01.14-15.38.34:966][270]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.14-15.38.34:966][270]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.14-15.38.34:970][270]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 4.122 ms (total: 31.484 ms)
+[2026.01.14-15.38.34:970][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.14-15.38.35:006][270]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2026.01.14-15.38.35:007][270]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.01.14-15.38.35:046][271]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.14-15.38.35:096][271]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.14-15.38.35:106][271]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.577 ms (total: 86.423 ms)
+[2026.01.14-15.38.35:106][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060519s)
+[2026.01.14-15.38.35:106][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.060557s)
+[2026.01.14-15.38.35:123][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.01.14-15.38.35:125][271]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.14-15.38.35:127][271]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.14-15.38.35:127][271]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.14-15.38.35:127][271]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.14-15.38.35:127][271]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.14-15.38.35:138][271]LogWorldPartition: Display: WorldPartition initialize took 11.098 ms (total: 7.32 sec)
+[2026.01.14-15.38.35:138][271]LogPlayLevel: PIE: World Init took: (0.012854s)
+[2026.01.14-15.38.35:139][271]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.14-15.38.35:139][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.14-15.38.35:139][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.14-15.38.35:139][271]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.14-15.38.35:139][271]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.14-15.38.35:139][271]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.14-15.38.35:141][271]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.14-15.38.35:205][271]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.14-15.38.35:205][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.14-15.38.35:205][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.14-15.38.35:205][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.14-15.38.35:205][271]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.01.14-15.38.35:205][271]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.01.14-15.38.35:208][271]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.01.14-15.38.35:208][271]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.01.14-15.38.35:208][271]LogInit: FAudioDevice initialized with ID 9.
+[2026.01.14-15.38.35:208][271]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_ThirdPerson'.
+[2026.01.14-15.38.35:208][271]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.01.14-15.38.35:212][271]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.14-15.38.35:233][271]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.14-16.38.35
+[2026.01.14-15.38.35:233][271]LogWorld: Bringing up level for play took: 0.021218
+[2026.01.14-15.38.35:239][271]PIE: Server logged in
+[2026.01.14-15.38.35:241][271]PIE: Play in editor total start time 0,275 seconds.
+[2026.01.14-15.38.40:246][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.14-15.38.40:246][568]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.14-15.38.40:247][568]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.14-15.38.40:252][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.14-15.38.40:252][568]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.14-15.38.40:255][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.14-15.38.40:258][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.14-15.38.40:367][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.14-15.38.40:369][568]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.01.14-15.38.40:369][568]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.01.14-15.38.40:372][568]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.01.14-15.38.40:383][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.14-15.38.40:480][569]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.01.14-15.38.56:340][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.01.14-15.38.56:345][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.38.56:417][509]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/FX/P9ILA2IQE7IGAH24JSEFDU
+[2026.01.14-15.38.56:418][509]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/P9ILA2IQE7IGAH24JSEFDUBCE16D514723F287B93BC6B3CC19D967.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/FX/P9ILA2IQE7IGAH24JSEFDU.uasset'
+[2026.01.14-15.38.56:425][509]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/6Y/2EKWBBW7E4HV9ND3LZYPM7
+[2026.01.14-15.38.56:426][509]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/2EKWBBW7E4HV9ND3LZYPM727860CCC462201AFBE348CAABC960CCF.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/6Y/2EKWBBW7E4HV9ND3LZYPM7.uasset'
+[2026.01.14-15.38.56:445][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.798 ms (total: 1.41 sec)
+[2026.01.14-15.38.56:497][509]LogContentValidation: Display: Starting to validate 2 assets
+[2026.01.14-15.38.56:497][509]LogContentValidation: Enabled validators:
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.38.56:497][509]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.38.56:497][509]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.38.56:518][509]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.39.38:065][982]Cmd: DUPLICATE
+[2026.01.14-15.39.38:065][982]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.40.18:912][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.14-15.40.18:916][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.40.18:986][414]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ
+[2026.01.14-15.40.18:987][414]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/2M1ETI6MNMCLPP6JUQB6MQ051BFEC64AA04710049D58BA85D5ADCE.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ.uasset'
+[2026.01.14-15.40.18:997][414]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/SB/RVF5S37YFTVYP8WVZ1STRJ
+[2026.01.14-15.40.18:997][414]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/RVF5S37YFTVYP8WVZ1STRJ5F37CF214CBE1188FC80CDAFE5F99C15.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/SB/RVF5S37YFTVYP8WVZ1STRJ.uasset'
+[2026.01.14-15.40.19:025][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.148 ms (total: 1.52 sec)
+[2026.01.14-15.40.19:095][414]LogContentValidation: Display: Starting to validate 2 assets
+[2026.01.14-15.40.19:095][414]LogContentValidation: Enabled validators:
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.40.19:095][414]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.40.19:095][414]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.40.19:152][414]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.40.21:422][544]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.14-15.40.21:422][544]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.14-15.40.21:426][544]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 3.807 ms (total: 35.291 ms)
+[2026.01.14-15.40.21:426][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.14-15.40.21:426][544]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2026.01.14-15.40.21:428][544]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.01.14-15.40.21:476][545]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.14-15.40.21:523][545]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.14-15.40.21:534][545]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.018 ms (total: 96.442 ms)
+[2026.01.14-15.40.21:534][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057519s)
+[2026.01.14-15.40.21:534][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.057559s)
+[2026.01.14-15.40.21:553][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.01.14-15.40.21:556][545]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.14-15.40.21:558][545]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.14-15.40.21:558][545]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.14-15.40.21:558][545]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.14-15.40.21:558][545]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.14-15.40.21:569][545]LogWorldPartition: Display: WorldPartition initialize took 10.700 ms (total: 7.33 sec)
+[2026.01.14-15.40.21:569][545]LogPlayLevel: PIE: World Init took: (0.012529s)
+[2026.01.14-15.40.21:569][545]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.14-15.40.21:569][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.14-15.40.21:569][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.14-15.40.21:569][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.14-15.40.21:569][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.14-15.40.21:569][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.14-15.40.21:571][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.14-15.40.21:642][545]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.14-15.40.21:642][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.14-15.40.21:642][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.14-15.40.21:642][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.14-15.40.21:644][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.01.14-15.40.21:644][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.01.14-15.40.21:645][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.01.14-15.40.21:645][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.01.14-15.40.21:645][545]LogInit: FAudioDevice initialized with ID 10.
+[2026.01.14-15.40.21:645][545]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lvl_ThirdPerson'.
+[2026.01.14-15.40.21:645][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.01.14-15.40.21:649][545]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.14-15.40.21:668][545]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.14-16.40.21
+[2026.01.14-15.40.21:669][545]LogWorld: Bringing up level for play took: 0.018820
+[2026.01.14-15.40.21:673][545]PIE: Server logged in
+[2026.01.14-15.40.21:675][545]PIE: Play in editor total start time 0,253 seconds.
+[2026.01.14-15.40.44:826][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.14-15.40.44:826][929]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.14-15.40.44:827][929]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.14-15.40.44:833][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.14-15.40.44:833][929]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.14-15.40.44:835][929]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.14-15.40.44:839][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.14-15.40.44:973][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.14-15.40.44:975][929]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.01.14-15.40.44:975][929]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.01.14-15.40.44:977][929]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.01.14-15.40.44:988][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.01.14-15.40.45:083][930]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.01.14-15.40.51:969][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.01.14-15.40.51:973][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.40.52:033][332]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ
+[2026.01.14-15.40.52:035][332]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/2M1ETI6MNMCLPP6JUQB6MQ046911D74769FA214A41EE909871CE03.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ.uasset'
+[2026.01.14-15.40.52:043][332]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/SB/RVF5S37YFTVYP8WVZ1STRJ
+[2026.01.14-15.40.52:043][332]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/RVF5S37YFTVYP8WVZ1STRJ38E8058B481C4DD0F0BE5BB62F32145A.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/SB/RVF5S37YFTVYP8WVZ1STRJ.uasset'
+[2026.01.14-15.40.52:054][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.192 ms (total: 1.60 sec)
+[2026.01.14-15.40.52:115][332]LogContentValidation: Display: Starting to validate 2 assets
+[2026.01.14-15.40.52:115][332]LogContentValidation: Enabled validators:
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.40.52:115][332]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.40.52:115][332]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.40.54:246][459]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1043.200562
+[2026.01.14-15.40.54:399][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.14-15.40.54:399][468]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1043.335815, Update Interval: 329.607239
+[2026.01.14-15.41.03:522][ 13]Cmd: DUPLICATE
+[2026.01.14-15.41.03:522][ 13]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.41.41:961][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.01.14-15.41.41:966][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.41.42:030][310]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ
+[2026.01.14-15.41.42:030][310]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/2M1ETI6MNMCLPP6JUQB6MQ7CB4CB6448243386AAD5689F22F94842.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/2G/2M1ETI6MNMCLPP6JUQB6MQ.uasset'
+[2026.01.14-15.41.42:040][310]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/PV/NQ9U21T3R4YA5WPIPST54T
+[2026.01.14-15.41.42:040][310]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/NQ9U21T3R4YA5WPIPST54T1C2E946B42687D83E2E8699DC1426A53.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/PV/NQ9U21T3R4YA5WPIPST54T.uasset'
+[2026.01.14-15.41.42:051][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.128 ms (total: 1.68 sec)
+[2026.01.14-15.41.42:120][310]LogContentValidation: Display: Starting to validate 2 assets
+[2026.01.14-15.41.42:120][310]LogContentValidation: Enabled validators:
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.41.42:120][310]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.41.42:120][310]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.41.42:178][310]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.41.46:416][563]Cmd: DUPLICATE
+[2026.01.14-15.41.46:416][563]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.42.06:847][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.01.14-15.42.06:852][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.42.06:931][781]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/79/N7BAL3INWRA1SGRNBT1U7J
+[2026.01.14-15.42.06:931][781]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/N7BAL3INWRA1SGRNBT1U7JBA9F33C4423EF8F18218A4919C794069.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/79/N7BAL3INWRA1SGRNBT1U7J.uasset'
+[2026.01.14-15.42.06:951][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.463 ms (total: 1.78 sec)
+[2026.01.14-15.42.07:015][781]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.42.07:015][781]LogContentValidation: Enabled validators:
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.42.07:015][781]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.42.07:015][781]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.42.07:066][781]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.42.09:966][953]Cmd: DUPLICATE
+[2026.01.14-15.42.09:966][953]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.42.35:167][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.01.14-15.42.35:172][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.42.35:244][456]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/GT/NA9UUK8OORNCGP3JZJ0HJ7
+[2026.01.14-15.42.35:245][456]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/NA9UUK8OORNCGP3JZJ0HJ711E03FC943A5FB358AC57FA96A00EE59.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/GT/NA9UUK8OORNCGP3JZJ0HJ7.uasset'
+[2026.01.14-15.42.35:268][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.364 ms (total: 1.88 sec)
+[2026.01.14-15.42.35:325][456]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.42.35:325][456]LogContentValidation: Enabled validators:
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.42.35:325][456]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.42.35:325][456]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.42.35:377][456]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.42.46:672][130]Cmd: DUPLICATE
+[2026.01.14-15.42.46:672][130]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.42.51:391][408]Cmd: TRANSACTION UNDO
+[2026.01.14-15.42.51:391][408]LogEditorTransaction: Undo Move Elements
+[2026.01.14-15.43.29:621][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.01.14-15.43.29:626][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.43.29:696][678]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/1F/6P0JIE9DG0OUCIXKR5X4K2
+[2026.01.14-15.43.29:696][678]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/6P0JIE9DG0OUCIXKR5X4K2C13B80264B03EE8CA98DE7A0CCA32A2F.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/1F/6P0JIE9DG0OUCIXKR5X4K2.uasset'
+[2026.01.14-15.43.29:707][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.867 ms (total: 1.96 sec)
+[2026.01.14-15.43.29:771][678]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.43.29:771][678]LogContentValidation: Enabled validators:
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.43.29:771][678]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.43.29:771][678]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.43.29:825][678]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.43.37:351][127]Cmd: DUPLICATE
+[2026.01.14-15.43.37:351][127]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.44.06:291][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.01.14-15.44.06:295][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.44.06:361][853]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/28/4O780758T8KD12GEU1UE4J
+[2026.01.14-15.44.06:362][853]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/4O780758T8KD12GEU1UE4J79EFD2FB4DC9772531CDA59EE8C1B91A.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/28/4O780758T8KD12GEU1UE4J.uasset'
+[2026.01.14-15.44.06:379][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.925 ms (total: 2.04 sec)
+[2026.01.14-15.44.06:442][853]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.44.06:442][853]LogContentValidation: Enabled validators:
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.44.06:442][853]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.44.06:442][853]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.44.06:495][853]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.44.10:888][115]Cmd: DUPLICATE
+[2026.01.14-15.44.10:888][115]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.44.54:953][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.01.14-15.44.54:957][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.44.55:032][736]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/U2/QQFSL3JTSPLF433DSRK1OA
+[2026.01.14-15.44.55:032][736]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/QQFSL3JTSPLF433DSRK1OA96E3B3DE45B9399E554F13B1E38FCA0D.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/U2/QQFSL3JTSPLF433DSRK1OA.uasset'
+[2026.01.14-15.44.55:043][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.872 ms (total: 2.13 sec)
+[2026.01.14-15.44.55:107][736]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.44.55:107][736]LogContentValidation: Enabled validators:
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.44.55:107][736]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.44.55:107][736]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.44.55:158][736]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.14-15.45.03:668][244]Cmd: DUPLICATE
+[2026.01.14-15.45.03:668][244]Cmd: ACTOR DUPLICATE
+[2026.01.14-15.45.37:499][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.01.14-15.45.37:504][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.14-15.45.37:573][261]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/IK/K3YHRJHIFP5OBUHNYQ2YJ0
+[2026.01.14-15.45.37:573][261]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/K3YHRJHIFP5OBUHNYQ2YJ0F0786C7C41190C844A7874A86E794113.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/IK/K3YHRJHIFP5OBUHNYQ2YJ0.uasset'
+[2026.01.14-15.45.37:596][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.479 ms (total: 2.22 sec)
+[2026.01.14-15.45.37:658][261]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.14-15.45.37:658][261]LogContentValidation: Enabled validators:
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.14-15.45.37:658][261]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.14-15.45.37:658][261]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.14-15.45.37:715][261]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
