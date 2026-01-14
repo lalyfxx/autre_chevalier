@@ -73,3 +73,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/chevalier/Saved/Logs
+chevalier/Saved/Logs/cef3.log
+chevalier/Saved/Logs/chevalier.log
