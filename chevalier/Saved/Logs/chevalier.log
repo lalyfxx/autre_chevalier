@@ -1255,3 +1255,770 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.15-12.55.30:569][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 7.320644
 [2026.01.15-12.55.30:571][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1164040915
 [2026.01.15-12.55.30:571][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7.320644, Update Interval: 332.487549
+[2026.01.15-12.56.12:179][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.01.15-12.56.12:181][949]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-12.56.13:032][949]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-12.56.13:038][949]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.15-12.56.13:038][949]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-12.56.13:038][949]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-12.56.20:459][949]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2026.01.15-12.56.20:610][949]LogWorldPartition: Display: WorldPartition initialize took 7.57 sec (total: 7.93 sec)
+[2026.01.15-12.56.20:629][949]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-12.56.20:694][949]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-12.56.20:694][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-12.56.20:694][949]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.01.15-12.56.20:715][949]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.15-12.56.20:726][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.01.15-12.56.20:732][949]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-12.56.20:734][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-12.56.20:734][949]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-12.56.20:764][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.01.15-12.56.20:781][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.01.15-12.56.20:787][949]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-12.56.20:788][949]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-12.56.20:790][949]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.15-12.56.20:790][949]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-12.56.20:790][949]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-12.56.20:905][949]LogWorldPartition: Display: WorldPartition initialize took 114.275 ms (total: 8.05 sec)
+[2026.01.15-12.56.20:939][949]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.15-12.56.20:955][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.01.15-12.56.20:962][949]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.15-12.56.20:964][949]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,486ms to complete.
+[2026.01.15-12.56.21:614][950]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.01.15-12.56.24:653][106]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2026.01.15-12.56.24:653][106]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2026.01.15-12.56.24:653][106]LogConfig: Set CVar [[r.TSR.Resurrection:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.AOQuality:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2026.01.15-12.56.24:654][106]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:0.8]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.DetailMode:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2026.01.15-12.56.24:663][106]LogConfig: Applying CVar settings from Section [LandscapeQuality@0] File [Scalability]
+[2026.01.15-12.56.24:685][106]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.01.15-12.56.24:708][106]LogContentStreaming: Texture pool size now 400 MB
+[2026.01.15-12.56.24:708][106]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="400"
+[2026.01.15-12.57.14:525][510]LogDerivedDataCache: C:/Users/maeam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.15-13.01.03:109][194]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 340.195251
+[2026.01.15-13.01.04:106][198]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-13.01.04:106][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 340.857086, Update Interval: 329.098175
+[2026.01.15-13.06.36:501][194]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 673.586609
+[2026.01.15-13.06.37:501][197]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-13.06.37:501][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 674.253235, Update Interval: 357.831970
+[2026.01.15-13.12.42:728][909]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1039.815308
+[2026.01.15-13.12.42:888][917]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-13.12.42:888][918]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1039.959351, Update Interval: 329.475403
+[2026.01.15-13.13.57:524][367]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [Scalability]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.SkeletalMeshLODBias:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.ViewDistanceScale:0.6]]
+[2026.01.15-13.13.57:524][367]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [Scalability]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.FXAA.Quality:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2026.01.15-13.13.57:524][367]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@1] File [Scalability]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.01.15-13.13.57:524][367]LogConfig: Set CVar [[r.AOQuality:1]]
+[2026.01.15-13.13.57:535][367]LogConfig: Applying CVar settings from Section [ReflectionQuality@1] File [Scalability]
+[2026.01.15-13.13.57:535][367]LogConfig: Set CVar [[r.SSR.Quality:2]]
+[2026.01.15-13.13.57:535][367]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [Scalability]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.DepthOfFieldQuality:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.RenderTargetPoolMin:350]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:35.355]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.FastBlurThreshold:2]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Filter.SizeScale:0.7]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Tonemapper.Quality:2]]
+[2026.01.15-13.13.57:536][367]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [Scalability]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Streaming.MipBias:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.MaxAnisotropy:2]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.Streaming.PoolSize:600]]
+[2026.01.15-13.13.57:536][367]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [Scalability]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.DetailMode:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SSS.Scale:0.75]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SSGI.Quality:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.25]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[fx.Niagara.QualityLevel:1]]
+[2026.01.15-13.13.57:536][367]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [Scalability]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[foliage.DensityScale:0.4]]
+[2026.01.15-13.13.57:536][367]LogConfig: Set CVar [[grass.DensityScale:0.4]]
+[2026.01.15-13.13.57:536][367]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [Scalability]
+[2026.01.15-13.13.57:536][367]LogConfig: Applying CVar settings from Section [LandscapeQuality@1] File [Scalability]
+[2026.01.15-13.13.57:561][367]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.01.15-13.13.57:707][373]LogContentStreaming: Texture pool size now 600 MB
+[2026.01.15-13.13.57:707][373]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="600"
+[2026.01.15-13.14.05:220][804]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2026.01.15-13.14.05:220][804]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.TSR.Resurrection:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.AOQuality:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2026.01.15-13.14.05:220][804]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:0.8]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.DetailMode:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2026.01.15-13.14.05:229][804]LogConfig: Applying CVar settings from Section [LandscapeQuality@0] File [Scalability]
+[2026.01.15-13.14.05:252][804]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.01.15-13.14.05:316][807]LogContentStreaming: Texture pool size now 400 MB
+[2026.01.15-13.14.05:316][807]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="400"
+[2026.01.15-13.14.09:165][ 31]LogFab: Display: Logging in using persist
+[2026.01.15-13.14.09:336][ 31]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2026.01.15-13.14.09:353][ 31]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.01.15-13.14.09:753][ 40]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 789...eda Access[Expires: 2026.01.15-15.14.13 Remaining: 7200.19] Refresh[Expires: 2026-07-13T15:11:48.792Z Remaining: 15472655.79] State: Valid
+[2026.01.15-13.14.09:770][ 41]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2026.01.15-13.14.09:939][ 51]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2026.01.15-13.14.09:939][ 51]LogFab: Display: User logged in
+[2026.01.15-13.14.09:939][ 51]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2026.01.15-13.14.10:304][ 73]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-Je5scSsHfUCifsetZ8CdeA-nMGo8nR4aEWojwEeQsJh8g]
+[2026.01.15-13.15.41:710][320]LogFab: Display: Asset Type = gltf
+[2026.01.15-13.15.41:710][320]LogFab: Display: Is Quixel = 1
+[2026.01.15-13.15.43:484][402]LogStreaming: Display: FlushAsyncLoading(2394): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-13.15.43:898][402]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.01.15-13.15.43:898][402]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/maeam/AppData/Local/Temp/FabLibrary/ffba6d80-3166-4648-a7e3-3f90e6a60131/worn_football_vlkjadr_ue_mid_extracted/vlkjadr_tier_2.gltf]
+[2026.01.15-13.15.43:961][404]LogStreaming: Display: FlushAsyncLoading(2429): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-13.15.44:054][409]LogStreaming: Display: FlushAsyncLoading(2432): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-13.15.44:113][411]LogStreaming: Display: FlushAsyncLoading(2434): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-13.15.44:190][412]LogTexture: Display: Building textures: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM.T_vlkjadr_2K_ORM (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 388.083323 MB), EncodeSpeed: Fast
+[2026.01.15-13.15.44:191][412]LogTexture: Display: Building textures: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N.T_vlkjadr_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 562.499988 MB), EncodeSpeed: Fast
+[2026.01.15-13.15.44:191][412]LogTexture: Display: Building textures: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B.T_vlkjadr_2K_B (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 388.083323 MB), EncodeSpeed: Fast
+[2026.01.15-13.15.44:203][412]LogStaticMesh: Display: Building static mesh vlkjadr_tier_2 (Required Memory Estimate: 3.640097 MB)...
+[2026.01.15-13.15.44:223][412]LogStaticMesh: Adjacency [0.00s], tris: 2496, UVs 1
+[2026.01.15-13.15.44:237][412]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2026.01.15-13.15.44:240][412]LogStaticMesh: Leaves [0.00s]
+[2026.01.15-13.15.44:431][420]LogStaticMesh: Reduce [0.19s]
+[2026.01.15-13.15.44:512][425]LogStaticMesh: Fallback [0.08s], num tris: 1122
+[2026.01.15-13.15.44:554][427]LogStaticMesh: Fallback [0.04s], num tris: 412
+[2026.01.15-13.15.44:556][427]LogStaticMesh: ConstrainClusters:
+[2026.01.15-13.15.44:556][427]LogStaticMesh:   Input: 41 Clusters, 5142 Triangles and 4527 Vertices
+[2026.01.15-13.15.44:556][427]LogStaticMesh:   Output without splits: 41 Clusters, 5142 Triangles and 4551 Vertices
+[2026.01.15-13.15.44:556][427]LogStaticMesh:   Output with splits: 41 Clusters, 5142 Triangles and 4551 Vertices
+[2026.01.15-13.15.44:556][427]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 41, Slow Path Clusters: 0, 1 Material: 41, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2026.01.15-13.15.44:557][427]LogStaticMesh: WritePages:
+[2026.01.15-13.15.44:557][427]LogStaticMesh:   Root: GPU size: 31924 bytes. 1 Pages. 31924.000 bytes per page (97.424% utilization).
+[2026.01.15-13.15.44:557][427]LogStaticMesh:   Streaming: GPU size: 23936 bytes. 1 Pages (1 with relative encoding). 23936.000 bytes per page (18.262% utilization).
+[2026.01.15-13.15.44:557][427]LogStaticMesh:   Page data disk size: 48980 bytes. Fixup data size: 320 bytes.
+[2026.01.15-13.15.44:557][427]LogStaticMesh:   Total GPU size: 55860 bytes, Total disk size: 49300 bytes.
+[2026.01.15-13.15.44:557][427]LogStaticMesh: Encode [0.00s]
+[2026.01.15-13.15.44:557][427]LogStaticMesh: NaniteBuild [0.34s]
+[2026.01.15-13.15.44:596][429]LogStaticMesh: Built static mesh [0.39s] /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.44:617][430]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=0.066 Y=-0.037 Z=0.030, BoxExtent=(X=6.957 Y=6.998 Z=6.906), SphereRadius=(10.304056)) and MeshDescription Bounds (Origin=X=0.051 Y=0.018 Z=0.004, BoxExtent=(X=6.941 Y=6.942 Z=6.843), SphereRadius=(7.227148)) is significative for StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.44:675][431]LogInterchangeEngine: Display: Interchange import completed [C:/Users/maeam/AppDa...adr_ue_mid_extracted/vlkjadr_tier_2.gltf]
+[2026.01.15-13.15.44:702][432]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=0.066 Y=-0.037 Z=0.030, BoxExtent=(X=6.957 Y=6.998 Z=6.906), SphereRadius=(10.304056)) and MeshDescription Bounds (Origin=X=0.051 Y=0.018 Z=0.004, BoxExtent=(X=6.941 Y=6.942 Z=6.843), SphereRadius=(7.227148)) is significative for StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.46:712][541]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.01.15-13.15.46:720][541]LogMaterial: Display: Material /Fab/Materials/Standard/M_MS_Base.M_MS_Base needed to have new flag set bUsedWithNanite !
+[2026.01.15-13.15.50:894][748]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.01.15-13.15.55:461][  9]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.55:461][  9]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.55:462][  9]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_0
+[2026.01.15-13.15.56:271][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.01.15-13.15.56:273][ 56]LogEditorActor: Deleted 0 Actors (0.027 secs)
+[2026.01.15-13.15.56:283][ 56]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.56:283][ 56]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2
+[2026.01.15-13.15.56:287][ 56]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_E4601777ACCB94B502_1526723679
+[2026.01.15-13.15.58:519][187]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring StaticMeshComponent /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_E4601777ACCB94B502_1526723679.StaticMeshComponent0.
+[2026.01.15-13.16.00:188][285]Cmd: TRANSACTION UNDO
+[2026.01.15-13.16.00:189][285]LogEditorTransaction: Undo Scale Elements
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: ================================================
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: Total job queries 538, among them cache hits 67 (12.45%), DDC hits 397 (73.79%), Duplicates 50 (9.29%)
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: Tracking 421 distinct input hashes that result in 294 distinct outputs (69.83%)
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: RAM used: 3,86 MiB of 1,60 GiB budget. Usage: 0.24%
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: Shaders Compiled: 24
+[2026.01.15-13.16.28:566][951]LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.14 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Job execution time: average 3.13 s, max 3.98 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Job life time (pending + execution): average 3.21 s, max 4.11
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Shader code size: total 245,107 KiB, numShaders 25, average 9,804 KiB, min 2,312 KiB, max 20,883 KiB
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.12 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.71 jobs/batch
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Average processing rate: 5.83 jobs/sec
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Total thread time: 25,839 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Total thread preprocess time: 7,741 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Percentage time preprocessing: 29.96%
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Effective parallelization: 6.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.392218
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.64 sec, max 2.64 sec, min 2.64 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.60 sec, max 2.60 sec, min 2.60 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 2.19 sec, max 2.19 sec, min 2.19 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 1.89 sec, max 2.16 sec, min 1.61 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 14.61% of total time (compiled    2 times, average 1.89 sec, max 2.16 sec, min 1.61 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.45% of total time (compiled    2 times, average 1.74 sec, max 1.90 sec, min 1.57 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 10.21% of total time (compiled    1 times, average 2.64 sec, max 2.64 sec, min 2.64 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 10.05% of total time (compiled    1 times, average 2.60 sec, max 2.60 sec, min 2.60 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display:                                                 FLumenCardCS - 8.47% of total time (compiled    1 times, average 2.19 sec, max 2.19 sec, min 2.19 sec)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: === Material stats ===
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Materials Translated:    201
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Material Translation Only: 0.08 s (52%)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: Material Cache Hits: 36 (18%)
+[2026.01.15-13.16.28:660][951]LogShaderCompilers: Display: ================================================
+[2026.01.15-13.16.29:630][  9]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.15-13.16.29:630][  9]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.15-13.16.29:635][  9]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 5.368 ms
+[2026.01.15-13.16.29:639][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.15-13.16.29:641][  9]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2026.01.15-13.16.29:644][  9]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2026.01.15-13.16.29:706][ 10]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.16.29:760][ 10]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.15-13.16.29:770][ 10]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 9.786 ms
+[2026.01.15-13.16.29:770][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064040s)
+[2026.01.15-13.16.29:770][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.064098s)
+[2026.01.15-13.16.29:786][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.01.15-13.16.29:788][ 10]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-13.16.29:790][ 10]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.15-13.16.29:790][ 10]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-13.16.29:790][ 10]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-13.16.29:790][ 10]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.15-13.16.29:802][ 10]LogWorldPartition: Display: WorldPartition initialize took 11.149 ms (total: 8.06 sec)
+[2026.01.15-13.16.29:802][ 10]LogPlayLevel: PIE: World Init took: (0.013632s)
+[2026.01.15-13.16.29:803][ 10]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.15-13.16.29:803][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.15-13.16.29:803][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-13.16.29:803][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-13.16.29:803][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-13.16.29:803][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-13.16.29:805][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-13.16.29:879][ 10]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.15-13.16.29:879][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-13.16.29:879][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-13.16.29:879][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-13.16.29:880][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.01.15-13.16.29:880][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.01.15-13.16.29:882][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.01.15-13.16.29:882][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.01.15-13.16.29:882][ 10]LogInit: FAudioDevice initialized with ID 2.
+[2026.01.15-13.16.29:882][ 10]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-13.16.29:882][ 10]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.15-13.16.29:892][ 10]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-13.16.29:916][ 10]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.15-14.16.29
+[2026.01.15-13.16.29:917][ 10]LogWorld: Bringing up level for play took: 0.022595
+[2026.01.15-13.16.29:974][ 10]PIE: Server logged in
+[2026.01.15-13.16.29:976][ 10]PIE: Play in editor total start time 0,348 seconds.
+[2026.01.15-13.16.32:396][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.16.32:396][143]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.16.32:397][143]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-13.16.32:404][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.16.32:404][143]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-13.16.32:406][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-13.16.32:408][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.16.32:422][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.16.32:423][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.15-13.16.32:423][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.01.15-13.16.32:426][143]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.01.15-13.16.32:437][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.01.15-13.16.32:530][144]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2026.01.15-13.16.39:575][550]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.15-13.16.39:575][550]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.15-13.16.39:580][550]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 4.107 ms (total: 9.475 ms)
+[2026.01.15-13.16.39:580][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.15-13.16.39:580][550]LogPlayLevel: Display: Creating online subsystem for client :Context_4
+[2026.01.15-13.16.39:582][550]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2026.01.15-13.16.39:622][551]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.16.39:674][551]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.15-13.16.39:685][551]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 11.278 ms (total: 21.064 ms)
+[2026.01.15-13.16.39:685][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063504s)
+[2026.01.15-13.16.39:685][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.063550s)
+[2026.01.15-13.16.39:728][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.01.15-13.16.39:730][551]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-13.16.39:731][551]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.15-13.16.39:731][551]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-13.16.39:731][551]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-13.16.39:731][551]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.15-13.16.39:744][551]LogWorldPartition: Display: WorldPartition initialize took 11.971 ms (total: 8.07 sec)
+[2026.01.15-13.16.39:744][551]LogPlayLevel: PIE: World Init took: (0.013807s)
+[2026.01.15-13.16.39:744][551]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.15-13.16.39:745][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.15-13.16.39:745][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-13.16.39:745][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-13.16.39:745][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-13.16.39:745][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-13.16.39:746][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-13.16.39:814][551]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.15-13.16.39:814][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-13.16.39:814][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-13.16.39:814][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-13.16.39:814][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.01.15-13.16.39:814][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.01.15-13.16.39:817][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.01.15-13.16.39:817][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.01.15-13.16.39:818][551]LogInit: FAudioDevice initialized with ID 3.
+[2026.01.15-13.16.39:818][551]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-13.16.39:818][551]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.15-13.16.39:822][551]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-13.16.39:844][551]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.15-14.16.39
+[2026.01.15-13.16.39:844][551]LogWorld: Bringing up level for play took: 0.022437
+[2026.01.15-13.16.39:850][551]PIE: Server logged in
+[2026.01.15-13.16.39:851][551]PIE: Play in editor total start time 0,276 seconds.
+[2026.01.15-13.16.44:193][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.16.44:193][808]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.16.44:194][808]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-13.16.44:200][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.16.44:200][808]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-13.16.44:202][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-13.16.44:203][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.16.44:218][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.16.44:219][808]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.15-13.16.44:219][808]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.01.15-13.16.44:221][808]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.01.15-13.16.44:231][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.01.15-13.16.44:323][809]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2026.01.15-13.16.59:041][679]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.15-13.16.59:041][679]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.15-13.16.59:045][679]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 4.023 ms (total: 13.499 ms)
+[2026.01.15-13.16.59:045][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.15-13.16.59:045][679]LogPlayLevel: Display: Creating online subsystem for client :Context_5
+[2026.01.15-13.16.59:047][679]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2026.01.15-13.16.59:099][680]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.16.59:150][680]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.15-13.16.59:160][680]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.781 ms (total: 31.846 ms)
+[2026.01.15-13.16.59:160][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061817s)
+[2026.01.15-13.16.59:160][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.061859s)
+[2026.01.15-13.16.59:173][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.01.15-13.16.59:175][680]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-13.16.59:176][680]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.15-13.16.59:176][680]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-13.16.59:176][680]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-13.16.59:176][680]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.15-13.16.59:188][680]LogWorldPartition: Display: WorldPartition initialize took 11.544 ms (total: 8.08 sec)
+[2026.01.15-13.16.59:188][680]LogPlayLevel: PIE: World Init took: (0.013291s)
+[2026.01.15-13.16.59:189][680]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.15-13.16.59:189][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.15-13.16.59:189][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-13.16.59:189][680]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-13.16.59:189][680]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-13.16.59:189][680]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-13.16.59:190][680]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-13.16.59:259][680]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.15-13.16.59:259][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-13.16.59:259][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-13.16.59:259][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-13.16.59:260][680]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.01.15-13.16.59:260][680]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.01.15-13.16.59:262][680]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.01.15-13.16.59:262][680]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.01.15-13.16.59:262][680]LogInit: FAudioDevice initialized with ID 4.
+[2026.01.15-13.16.59:262][680]LogAudio: Display: Audio Device (ID: 4) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-13.16.59:262][680]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.15-13.16.59:266][680]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-13.16.59:288][680]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.15-14.16.59
+[2026.01.15-13.16.59:288][680]LogWorld: Bringing up level for play took: 0.021506
+[2026.01.15-13.16.59:293][680]PIE: Server logged in
+[2026.01.15-13.16.59:294][680]PIE: Play in editor total start time 0,254 seconds.
+[2026.01.15-13.17.12:895][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.17.12:895][492]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.17.12:895][492]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-13.17.12:901][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.17.12:901][492]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-13.17.12:903][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-13.17.12:904][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.17.12:920][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.17.12:922][492]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.15-13.17.12:922][492]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.01.15-13.17.12:924][492]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.01.15-13.17.12:936][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.01.15-13.17.13:032][493]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.01.15-13.17.39:758][ 60]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [Scalability]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.SkeletalMeshLODBias:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.ViewDistanceScale:0.6]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [Scalability]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.FXAA.Quality:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@1] File [Scalability]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.01.15-13.17.39:758][ 60]LogConfig: Set CVar [[r.AOQuality:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [ReflectionQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SSR.Quality:2]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.DepthOfFieldQuality:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.RenderTargetPoolMin:350]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:35.355]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.FastBlurThreshold:2]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Filter.SizeScale:0.7]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Tonemapper.Quality:2]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Streaming.MipBias:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.MaxAnisotropy:2]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.Streaming.PoolSize:600]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.DetailMode:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SSS.Scale:0.75]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SSGI.Quality:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.25]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[fx.Niagara.QualityLevel:1]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[foliage.DensityScale:0.4]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Set CVar [[grass.DensityScale:0.4]]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [Scalability]
+[2026.01.15-13.17.39:770][ 60]LogConfig: Applying CVar settings from Section [LandscapeQuality@1] File [Scalability]
+[2026.01.15-13.17.39:799][ 60]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.01.15-13.17.39:896][ 64]LogContentStreaming: Texture pool size now 600 MB
+[2026.01.15-13.17.39:896][ 64]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="600"
+[2026.01.15-13.17.43:868][281]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.15-13.17.43:868][281]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.15-13.17.43:872][281]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 4.026 ms (total: 17.526 ms)
+[2026.01.15-13.17.43:872][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.15-13.17.43:893][281]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2026.01.15-13.17.43:895][281]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.01.15-13.17.43:907][282]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.17.43:958][282]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.15-13.17.43:970][282]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.973 ms (total: 42.819 ms)
+[2026.01.15-13.17.43:970][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061750s)
+[2026.01.15-13.17.43:970][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.061788s)
+[2026.01.15-13.17.43:984][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.01.15-13.17.43:986][282]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-13.17.43:988][282]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.15-13.17.43:988][282]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-13.17.43:988][282]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-13.17.43:988][282]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.15-13.17.44:000][282]LogWorldPartition: Display: WorldPartition initialize took 11.640 ms (total: 8.09 sec)
+[2026.01.15-13.17.44:000][282]LogPlayLevel: PIE: World Init took: (0.013353s)
+[2026.01.15-13.17.44:001][282]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.15-13.17.44:001][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.15-13.17.44:001][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-13.17.44:001][282]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-13.17.44:001][282]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-13.17.44:001][282]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-13.17.44:003][282]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-13.17.44:076][282]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.15-13.17.44:077][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-13.17.44:077][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-13.17.44:077][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-13.17.44:078][282]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.01.15-13.17.44:078][282]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.01.15-13.17.44:080][282]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.01.15-13.17.44:080][282]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.01.15-13.17.44:080][282]LogInit: FAudioDevice initialized with ID 5.
+[2026.01.15-13.17.44:080][282]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-13.17.44:080][282]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.15-13.17.44:085][282]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-13.17.44:107][282]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.15-14.17.44
+[2026.01.15-13.17.44:108][282]LogWorld: Bringing up level for play took: 0.022319
+[2026.01.15-13.17.44:113][282]PIE: Server logged in
+[2026.01.15-13.17.44:115][282]PIE: Play in editor total start time 0,247 seconds.
+[2026.01.15-13.17.47:894][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.17.47:894][505]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.17.47:894][505]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-13.17.47:901][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.17.47:901][505]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-13.17.47:903][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-13.17.47:906][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.17.48:003][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.17.48:005][505]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.15-13.17.48:005][505]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.01.15-13.17.48:008][505]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.01.15-13.17.48:019][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.01.15-13.17.48:096][506]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.01.15-13.17.53:809][824]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.15-13.17.53:809][824]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.01.15-13.17.53:812][824]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 3.900 ms (total: 21.426 ms)
+[2026.01.15-13.17.53:812][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.15-13.17.53:812][824]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2026.01.15-13.17.53:814][824]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.01.15-13.17.53:828][825]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.17.53:880][825]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.15-13.17.53:891][825]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 11.127 ms (total: 53.947 ms)
+[2026.01.15-13.17.53:891][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063106s)
+[2026.01.15-13.17.53:891][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.063148s)
+[2026.01.15-13.17.53:930][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.01.15-13.17.53:932][825]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.01.15-13.17.53:934][825]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.15-13.17.53:934][825]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-13.17.53:934][825]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-13.17.53:934][825]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.15-13.17.53:946][825]LogWorldPartition: Display: WorldPartition initialize took 12.694 ms (total: 8.10 sec)
+[2026.01.15-13.17.53:946][825]LogPlayLevel: PIE: World Init took: (0.014567s)
+[2026.01.15-13.17.53:947][825]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.15-13.17.53:947][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.15-13.17.53:947][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-13.17.53:947][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-13.17.53:947][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-13.17.53:947][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-13.17.53:949][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-13.17.54:037][825]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.01.15-13.17.54:038][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-13.17.54:038][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-13.17.54:038][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-13.17.54:038][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.01.15-13.17.54:038][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.01.15-13.17.54:041][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.01.15-13.17.54:041][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.01.15-13.17.54:041][825]LogInit: FAudioDevice initialized with ID 6.
+[2026.01.15-13.17.54:041][825]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lvl_ThirdPerson'.
+[2026.01.15-13.17.54:041][825]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.01.15-13.17.54:046][825]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-13.17.54:066][825]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2026.01.15-14.17.54
+[2026.01.15-13.17.54:067][825]LogWorld: Bringing up level for play took: 0.021310
+[2026.01.15-13.17.54:072][825]PIE: Server logged in
+[2026.01.15-13.17.54:074][825]PIE: Play in editor total start time 0,265 seconds.
+[2026.01.15-13.18.00:954][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.18.00:954][232]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.01.15-13.18.00:955][232]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-13.18.00:964][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.18.00:964][232]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.01.15-13.18.00:967][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-13.18.00:969][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-13.18.00:983][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-13.18.00:985][232]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.01.15-13.18.00:985][232]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.01.15-13.18.00:987][232]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.01.15-13.18.00:997][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.01.15-13.18.01:065][233]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.01.15-13.18.13:862][975]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.01.15-13.18.19:226][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.01.15-13.18.19:233][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.15-13.18.19:322][292]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/J7/SQ1O6BCBBA259Z57HLXLI4
+[2026.01.15-13.18.19:323][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SQ1O6BCBBA259Z57HLXLI497CDDD2847998B768F98D49B59A674DA.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/J7/SQ1O6BCBBA259Z57HLXLI4.uasset'
+[2026.01.15-13.18.19:334][292]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/UA/GDVHD7S4AF9NAGZ0KT0U1X
+[2026.01.15-13.18.19:334][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/GDVHD7S4AF9NAGZ0KT0U1X01EE79184E498FE1FAC181B5CFE4D6B1.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/UA/GDVHD7S4AF9NAGZ0KT0U1X.uasset'
+[2026.01.15-13.18.19:336][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N] ([1] browsable assets)...
+[2026.01.15-13.18.19:340][292]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N.T_vlkjadr_2K_N]
+[2026.01.15-13.18.19:340][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N]
+[2026.01.15-13.18.19:392][292]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N
+[2026.01.15-13.18.19:392][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/T_vlkjadr_2K_N67ED1729417A6F3D5F46F0BE1C6392D6.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N.uasset'
+[2026.01.15-13.18.19:396][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM] ([1] browsable assets)...
+[2026.01.15-13.18.19:399][292]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM.T_vlkjadr_2K_ORM]
+[2026.01.15-13.18.19:399][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM]
+[2026.01.15-13.18.19:444][292]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM
+[2026.01.15-13.18.19:444][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/T_vlkjadr_2K_ORM55536D72460B6825F8076B9B8C693BF7.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM.uasset'
+[2026.01.15-13.18.19:447][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B] ([1] browsable assets)...
+[2026.01.15-13.18.19:450][292]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B.T_vlkjadr_2K_B]
+[2026.01.15-13.18.19:450][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B]
+[2026.01.15-13.18.19:505][292]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B
+[2026.01.15-13.18.19:505][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/T_vlkjadr_2K_B7B3F4E904B297CD25D280DA505A13680.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B.uasset'
+[2026.01.15-13.18.19:510][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr] ([1] browsable assets)...
+[2026.01.15-13.18.19:524][292]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr.MI_vlkjadr]
+[2026.01.15-13.18.19:524][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr]
+[2026.01.15-13.18.19:536][292]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr
+[2026.01.15-13.18.19:536][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/MI_vlkjadr43184C1F4B470EB5577B7B863245B225.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr.uasset'
+[2026.01.15-13.18.19:538][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Fab/Materials/Standard/M_MS_Base] ([1] browsable assets)...
+[2026.01.15-13.18.19:538][292]OBJ SavePackage: Finished generating thumbnails for package [/Fab/Materials/Standard/M_MS_Base]
+[2026.01.15-13.18.19:538][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Fab/Materials/Standard/M_MS_Base" FILE="../../Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset" SILENT=true
+[2026.01.15-13.18.19:550][292]LogSavePackage: Moving output files for package: /Fab/Materials/Standard/M_MS_Base
+[2026.01.15-13.18.19:550][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/M_MS_BaseFF9169CB49531263D282419261AEFABB.tmp' to '../../Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset'
+[2026.01.15-13.18.19:553][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2] ([1] browsable assets)...
+[2026.01.15-13.18.19:561][292]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.vlkjadr_tier_2]
+[2026.01.15-13.18.19:561][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2]
+[2026.01.15-13.18.19:574][292]LogSavePackage: Moving output files for package: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2
+[2026.01.15-13.18.19:574][292]LogSavePackage: Moving '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/vlkjadr_tier_23EFAAB66401191F2934CAE977050EBF3.tmp' to '../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Content/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2.uasset'
+[2026.01.15-13.18.19:596][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 363.070 ms
+[2026.01.15-13.18.19:673][292]LogContentValidation: Display: Starting to validate 8 assets
+[2026.01.15-13.18.19:673][292]LogContentValidation: Enabled validators:
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.15-13.18.19:673][292]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.15-13.18.19:674][292]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.01.15-13.18.19:674][292]AssetCheck: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_N Validating asset
+[2026.01.15-13.18.19:674][292]AssetCheck: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_ORM Validating asset
+[2026.01.15-13.18.19:674][292]AssetCheck: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Textures/T_vlkjadr_2K_B Validating asset
+[2026.01.15-13.18.19:674][292]AssetCheck: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/Materials/MI_vlkjadr Validating asset
+[2026.01.15-13.18.19:674][292]AssetCheck: /Fab/Materials/Standard/M_MS_Base Validating asset
+[2026.01.15-13.18.19:675][292]AssetCheck: /Game/Fab/Megascans/3D/Worn_Football_vlkjadr/Medium/vlkjadr_tier_2/StaticMeshes/vlkjadr_tier_2 Validating asset
+[2026.01.15-13.18.19:704][292]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/maeam/OneDrive - e-artsup/Documents/Unreal Projects/WrkshpLicense/autrechevalie/autre_chevalier/chevalier/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.15-13.18.28:125][797]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1385.214355
+[2026.01.15-13.18.28:274][806]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-13.18.28:274][806]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1385.347290, Update Interval: 310.953705
