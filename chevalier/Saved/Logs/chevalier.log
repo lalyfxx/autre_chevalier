@@ -1177,3 +1177,221 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.15-19.34.58:115][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 27.489582
 [2026.01.15-19.34.58:117][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1164040915
 [2026.01.15-19.34.58:117][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27.489582, Update Interval: 354.854584
+[2026.01.15-19.35.09:451][ 42]LogWindowsTextInputMethodSystem: Activated input method: Français (France) - (Keyboard).
+[2026.01.15-19.35.12:181][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.01.15-19.35.12:183][174]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-19.35.12:585][174]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson1
+[2026.01.15-19.35.12:586][174]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.15-19.35.12:586][174]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-19.35.12:586][174]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson1.Lvl_ThirdPerson1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-19.35.12:969][174]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2026.01.15-19.35.13:102][174]LogWorldPartition: Display: WorldPartition initialize took 515.942 ms (total: 723.031 ms)
+[2026.01.15-19.35.13:111][174]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Lvl_ThirdPerson1.Lvl_ThirdPerson1
+[2026.01.15-19.35.13:111][174]Cmd: MAP LOAD FILE="../../../../../../Users/Utilisateur 1/Documents/2eme_année/wokshop_shader/autre_chevalier/chevalier/Content/ThirdPerson/Lvl_ThirdPerson1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.01.15-19.35.13:136][174]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-19.35.13:136][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-19.35.13:137][174]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.01.15-19.35.13:164][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.15-19.35.13:181][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.01.15-19.35.13:185][174]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson1, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-19.35.13:186][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-19.35.13:186][174]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson1.Lvl_ThirdPerson1
+[2026.01.15-19.35.13:216][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.01.15-19.35.13:234][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.01.15-19.35.13:243][174]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson1'.
+[2026.01.15-19.35.13:246][174]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson1
+[2026.01.15-19.35.13:248][174]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.15-19.35.13:248][174]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-19.35.13:248][174]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson1.Lvl_ThirdPerson1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.15-19.35.13:406][174]LogWorldPartition: Display: WorldPartition initialize took 157.945 ms (total: 880.977 ms)
+[2026.01.15-19.35.13:438][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.15-19.35.13:454][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.01.15-19.35.13:460][174]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.15-19.35.13:461][174]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,397ms to complete.
+[2026.01.15-19.35.13:519][174]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.01.15-19.35.13:589][174]LogMaterial: Display: Material /Fab/Materials/Standard/M_MS_Base.M_MS_Base needed to have new flag set bUsedWithNanite !
+[2026.01.15-19.35.13:599][174]MapCheck: Warning: M_MS_Base Material /Fab/Materials/Standard/M_MS_Base.M_MS_Base was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2026.01.15-19.35.14:001][175]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.15-19.35.14:248][177]LogPSOHitching: Encountered 50 PSO creation hitches so far (35 graphics, 15 compute). 0 of them were precached.
+[2026.01.15-19.35.14:567][179]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.15-19.35.14:862][180]LogPSOHitching: Encountered 100 PSO creation hitches so far (78 graphics, 22 compute). 0 of them were precached.
+[2026.01.15-19.35.15:873][186]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.15-19.35.16:276][208]LogSlate: Window 'Message Log' being destroyed
+[2026.01.15-19.35.16:333][208]LogSlate: Window 'Message Log' being destroyed
+[2026.01.15-19.36.26:333][310]LogPSOHitching: Encountered 150 PSO creation hitches so far (126 graphics, 24 compute). 0 of them were precached.
+[2026.01.15-19.36.26:883][337]LogDerivedDataCache: C:/Users/Utilisateur 1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.15-19.36.59:585][280]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.01.15-19.37.09:187][795]Cmd: DUPLICATE
+[2026.01.15-19.37.09:187][795]Cmd: ACTOR DUPLICATE
+[2026.01.15-19.37.39:573][496]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/glass_M.glass_M
+[2026.01.15-19.37.39:577][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.01.15-19.37.39:583][496]LogStreaming: Display: FlushAsyncLoading(2198): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.15-19.37.39:786][496]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/assets/tableLicensev2.tableLicensev2
+[2026.01.15-19.37.39:794][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.01.15-19.37.40:287][496]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/assets/deskActor_BP.deskActor_BP
+[2026.01.15-19.37.40:287][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.01.15-19.37.41:070][496]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPerson/_GENERATED/maeamg/CubeGridToolOutput_1803C6C5.CubeGridToolOutput_1803C6C5
+[2026.01.15-19.37.41:076][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.01.15-19.37.41:494][496]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/ThirdPerson/NewMaterial_Inst.NewMaterial_Inst
+[2026.01.15-19.37.41:496][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.01.15-19.37.42:356][496]MaterialEditorStats: Texture samplers: 0/16
+[2026.01.15-19.37.42:356][496]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.01.15-19.37.42:356][496]MaterialEditorStats: Shader Count: 0
+[2026.01.15-19.37.42:356][496]MaterialEditorStats: Preshaders: 7  (7 param fetches, 10 ops)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: ================================================
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Total job queries 792, among them cache hits 171 (21.59%), DDC hits 545 (68.81%), Duplicates 75 (9.47%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Tracking 546 distinct input hashes that result in 380 distinct outputs (69.60%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: RAM used: 4,66 MiB of 1,60 GiB budget. Usage: 0.28%
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Shaders Compiled: 1
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.02 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Job execution time: average 1.12 s, max 1.12 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 1.14
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Shader code size: total 13,059 KiB, numShaders 2, average 6,529 KiB, min 3,777 KiB, max 9,281 KiB
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.14 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Average processing rate: 0.88 jobs/sec
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Total thread time: 0,934 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Total thread preprocess time: 13,48 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Percentage time preprocessing: 1443.75%
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Effective parallelization: 0.82 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.051401
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                                  FVelocityPS - 63.52% of total time (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                                  FVelocityVS - 36.48% of total time (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: === Material stats ===
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Materials Translated:    185
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: Material Cache Hits: 27 (15%)
+[2026.01.15-19.37.55:292][904]LogShaderCompilers: Display: ================================================
+[2026.01.15-19.40.52:674][484]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 382.376495
+[2026.01.15-19.40.53:358][525]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-19.40.53:358][525]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 383.044220, Update Interval: 338.248230
+[2026.01.15-19.45.12:360][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.01.15-19.45.12:370][885]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson1/9/77/1SARDJ2ZKI2XYFCTYYOQTC_Auto1
+[2026.01.15-19.45.12:370][885]LogSavePackage: Moving '../../../../../../Users/Utilisateur 1/Documents/2eme_année/wokshop_shader/autre_chevalier/chevalier/Saved/1SARDJ2ZKI2XYFCTYYOQTC_Auto19D718341459038D8BC1E85A892115278.tmp' to '../../../../../../Users/Utilisateur 1/Documents/2eme_année/wokshop_shader/autre_chevalier/chevalier/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson1/9/77/1SARDJ2ZKI2XYFCTYYOQTC_Auto1.uasset'
+[2026.01.15-19.45.12:373][885]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson1' took 0.056
+[2026.01.15-19.45.12:373][885]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.056
+[2026.01.15-19.46.34:608][132]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 724.307678
+[2026.01.15-19.46.35:608][135]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-19.46.35:608][135]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 724.973694, Update Interval: 323.963745
+[2026.01.15-19.52.07:002][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1056.699219
+[2026.01.15-19.52.08:003][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-19.52.08:003][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1057.366333, Update Interval: 333.350006
+[2026.01.15-19.57.52:052][164]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1401.747192
+[2026.01.15-19.57.53:051][167]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-19.57.53:051][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1402.412720, Update Interval: 316.062500
+[2026.01.15-20.03.25:441][164]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1735.131348
+[2026.01.15-20.03.26:442][167]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-20.03.26:442][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1735.797363, Update Interval: 355.885498
+[2026.01.15-20.10.02:837][357]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2132.523926
+[2026.01.15-20.10.03:837][359]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.15-20.10.03:837][359]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2133.190674, Update Interval: 353.418976
+[2026.01.15-20.11.57:728][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2026.01.15-20.11.59:514][768]LogSlate: Window 'Save Content' being destroyed
+[2026.01.15-20.11.59:692][768]LogStall: Shutdown...
+[2026.01.15-20.11.59:692][768]LogStall: Shutdown complete.
+[2026.01.15-20.11.59:758][768]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.11.59:758][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.11.59:853][768]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.11.59:853][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.11.59:890][768]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.11.59:890][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.11.59:977][768]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.11.59:977][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.11.59:999][768]LogSlate: Window 'NewMaterial_Inst' being destroyed
+[2026.01.15-20.12.00:033][768]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.12.00:033][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.12.00:075][768]LogSlate: Window 'chevalier - Unreal Editor' being destroyed
+[2026.01.15-20.12.00:078][768]LogWindowsTextInputMethodSystem: Activated input method: Français (France) - (Keyboard).
+[2026.01.15-20.12.00:438][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2026.01.15-20.12.00:451][769]Cmd: QUIT_EDITOR
+[2026.01.15-20.12.00:451][769]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.01.15-20.12.00:460][769]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.01.15-20.12.00:462][769]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.01.15-20.12.00:463][769]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.01.15-20.12.00:493][769]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson1, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.12.00:493][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.12.00:493][769]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson1.Lvl_ThirdPerson1
+[2026.01.15-20.12.00:513][769]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.01.15-20.12.00:513][769]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.01.15-20.12.00:515][769]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.01.15-20.12.00:524][769]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.12.00:524][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.12.00:527][769]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-20.12.00:527][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-20.12.00:535][769]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.01.15-20.12.00:536][769]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.01.15-20.12.00:537][769]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.01.15-20.12.00:541][769]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.01.15-20.12.00:541][769]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.01.15-20.12.00:541][769]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson1'.
+[2026.01.15-20.12.00:541][769]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.01.15-20.12.00:543][769]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.01.15-20.12.00:545][769]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.01.15-20.12.00:562][769]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.01.15-20.12.00:562][769]LogAudio: Display: Audio Device Manager Shutdown
+[2026.01.15-20.12.00:594][769]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.01.15-20.12.00:594][769]LogExit: Preparing to exit.
+[2026.01.15-20.12.00:653][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.01.15-20.12.00:654][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:655][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:656][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:656][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:656][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.00:657][769]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.01.15-20.12.01:364][769]LogEditorDataStorage: Deinitializing
+[2026.01.15-20.12.01:691][769]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.01.15-20.12.01:771][769]LogExit: Editor shut down
+[2026.01.15-20.12.01:791][769]LogExit: Transaction tracking system shut down
+[2026.01.15-20.12.02:834][769]LogExit: Object subsystem successfully closed.
+[2026.01.15-20.12.02:888][769]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.01.15-20.12.03:153][769]LogMemoryProfiler: Shutdown
+[2026.01.15-20.12.03:154][769]LogNetworkingProfiler: Shutdown
+[2026.01.15-20.12.03:154][769]LoadingProfiler: Shutdown
+[2026.01.15-20.12.03:154][769]LogTimingProfiler: Shutdown
+[2026.01.15-20.12.03:157][769]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.01.15-20.12.03:158][769]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.01.15-20.12.03:777][769]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.01.15-20.12.03:778][769]LogNFORDenoise: NFORDenoise function shutting down
+[2026.01.15-20.12.03:780][769]RenderDocPlugin: plugin has been unloaded.
+[2026.01.15-20.12.03:811][769]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.01.15-20.12.03:811][769]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDD7129C-4715-68FA-DD8E-5D907613385B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=7710491d4565d03ba29054b7254637fe%7C02f9fc3c90b24344993dfabfd525749b%7C03fa316f-66de-441c-af1b-1e714b322fc0&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.01.15-20.12.04:374][769]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.01.15-20.12.04:398][769]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.01.15-20.12.04:398][769]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.01.15-20.12.04:398][769]LogPakFile: Destroying PakPlatformFile
+[2026.01.15-20.12.06:501][769]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.01.15-20.12.06:763][769]LogExit: Exiting.
+[2026.01.15-20.12.06:820][769]Log file closed, 01/15/26 21:12:06
